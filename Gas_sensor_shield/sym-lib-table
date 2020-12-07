@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name Gas_sensor_library)(type Legacy)(uri ${KIPRJMOD}/myLibraries/Gas_sensor_library.lib)(options "")(descr ""))
+  (lib (name LTC1050)(type Legacy)(uri ${KIPRJMOD}/myLibraries/LTC1050.lib)(options "")(descr ""))
+  (lib (name P2N2222A)(type Legacy)(uri ${KIPRJMOD}/myLibraries/P2N2222A.lib)(options "")(descr ""))
+)
