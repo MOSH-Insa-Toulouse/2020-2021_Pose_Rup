@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Gas_sensor_shield-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -32,7 +33,7 @@ A5(SCL)
 Text Label 10550 3000 0    60   ~ 0
 0(Rx)
 Text Label 10550 2800 0    60   ~ 0
-D2_LED_AIR_QUALITY_WARNING
+2
 Text Label 10550 2900 0    60   ~ 0
 1(Tx)
 Text Label 10550 2700 0    60   ~ 0
@@ -368,12 +369,12 @@ Wire Wire Line
 $Comp
 L Device:LED D1
 U 1 1 5FC816DA
-P 3600 1700
-F 0 "D1" V 3639 1583 50  0000 R CNN
-F 1 "LED" V 3548 1583 50  0000 R CNN
-F 2 "LED_THT:LED_D5.0mm" H 3600 1700 50  0001 C CNN
-F 3 "~" H 3600 1700 50  0001 C CNN
-	1    3600 1700
+P 3600 1600
+F 0 "D1" V 3639 1483 50  0000 R CNN
+F 1 "LED" V 3548 1483 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 3600 1600 50  0001 C CNN
+F 3 "~" H 3600 1600 50  0001 C CNN
+	1    3600 1600
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -388,7 +389,7 @@ F 3 "~" H 3600 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3600 1850 3600 1950
+	3600 1750 3600 1950
 $Comp
 L power:GND #PWR0104
 U 1 1 5FC83E64
@@ -421,6 +422,8 @@ F 9 "P2N2222A" H 2850 3200 50  0001 L BNN "MP"
 $EndComp
 Wire Wire Line
 	2750 3200 2450 3200
+Text Label 3600 1300 2    50   ~ 0
+2
 Wire Wire Line
 	2950 3000 2950 2850
 NoConn ~ 10550 3000
@@ -452,6 +455,8 @@ F 3 "" H 2950 2850 50  0000 C CNN
 $EndComp
 Text Label 3800 3200 2    50   ~ 0
 3(**)
+Wire Wire Line
+	3600 1450 3600 1300
 $Comp
 L Device:C C3
 U 1 1 5FCCCF8B
@@ -909,11 +914,4 @@ Wire Wire Line
 Text Label 2400 4350 1    50   ~ 0
 +5V(on-off)
 NoConn ~ 8900 2600
-NoConn ~ 10550 2600
-Text Label 3850 1400 0    60   ~ 0
-D2_LED_AIR_QUALITY_WARNING
-Wire Wire Line
-	3600 1550 3600 1400
-Wire Wire Line
-	3600 1400 3850 1400
 $EndSCHEMATC

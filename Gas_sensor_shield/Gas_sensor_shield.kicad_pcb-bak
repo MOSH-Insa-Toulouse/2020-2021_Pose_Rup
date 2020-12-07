@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 28)
-    (tracks 190)
+    (tracks 189)
     (zones 0)
     (modules 27)
     (nets 53)
@@ -27,9 +27,9 @@
     (43 Eco2.User user)
     (44 Edge.Cuts user)
     (45 Margin user)
-    (46 B.CrtYd user hide)
-    (47 F.CrtYd user hide)
-    (49 F.Fab user hide)
+    (46 B.CrtYd user)
+    (47 F.CrtYd user)
+    (49 F.Fab user)
   )
 
   (setup
@@ -1320,7 +1320,6 @@
   (via (at 118.618 109.601) (size 1.2) (drill 0.8) (layers F.Cu B.Cu) (net 4))
   (via (at 116.078 105.029) (size 1.2) (drill 0.8) (layers F.Cu B.Cu) (net 4))
   (via (at 154.686 78.359) (size 1.2) (drill 0.8) (layers F.Cu B.Cu) (net 4))
-  (via (at 142.494 111.379) (size 1.2) (drill 0.8) (layers F.Cu B.Cu) (net 4) (tstamp 5FCEB2AA))
   (segment (start 161.75482 117.88014) (end 161.7764 117.90172) (width 0.8) (layer B.Cu) (net 5))
   (segment (start 161.75482 112.72012) (end 161.75482 117.88014) (width 0.8) (layer B.Cu) (net 5))
   (segment (start 161.7764 123.8034) (end 161.798 123.825) (width 0.8) (layer B.Cu) (net 5))

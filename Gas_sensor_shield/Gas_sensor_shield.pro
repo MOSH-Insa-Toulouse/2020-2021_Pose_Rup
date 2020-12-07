@@ -1,4 +1,4 @@
-update=06/12/2020 23:18:38
+update=07/12/2020 17:36:27
 version=1
 last_client=kicad
 [cvpcb]
@@ -248,10 +248,10 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=Routage_INSA
-Clearance=0.2
+Clearance=0.4
 TrackWidth=0.8
-ViaDiameter=0.8
-ViaDrill=0.4
+ViaDiameter=1.6
+ViaDrill=0.8
 uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.2
