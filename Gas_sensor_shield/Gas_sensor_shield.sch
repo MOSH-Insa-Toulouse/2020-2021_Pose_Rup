@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Gas_sensor_shield-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -841,7 +842,6 @@ Wire Wire Line
 	2400 4350 2400 4500
 NoConn ~ 8900 2600
 NoConn ~ 10550 2600
-NoConn ~ 1100 4300
 Text Label 2400 4350 1    50   ~ 0
 +5V(on-off)
 Text Label 2300 2900 2    50   ~ 0
