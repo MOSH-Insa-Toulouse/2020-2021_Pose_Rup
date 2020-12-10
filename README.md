@@ -33,4 +33,8 @@ Open source EDA / electronics CAD software for Windows, macOS and Linux.
 
 ## Component placement
 
+![Schematic](Gas_sensor_shield/Images/board-routing.png)
+
+## 3D view
+
 ![Place components](Gas_sensor_shield/Images/place-components.png)
