@@ -12,10 +12,20 @@ Un espace a été spécialement réservé pour inclure la carte de développemen
 
 - [x] Gas sensor réalisé à l'AIME
 - [x] Capteur de température pour mesurer la température opérationelle du capteur de gas
-- [x] Circuit de traitement et amplification du signal du capteur de gas
+- [x] Circuit de traitement et amplification du signal du capteur de gaz
 - [x] LED rouge pour prévenir l'utilisateur d'un danger / mauvaise qualité de l'air
 - [x] Socket pour venir fixer la carte intégrant le module LoRa et son antenne
-- [x] 2 transistors N-MOSFET permettant de passer le capteur en "sleep mode" en utilisant le pin 3 de l'Arduino
+- [x] 2 transistors NPN permettant d'allumer ou d'éteindre les alimentations du circuit capteur (entre 2 prises de mesure) en utilisant la pin 3 de l'Arduino
+
+## Bill Of Materials
+
+|           Components           |             Reference            |
+|:------------------------------:|:--------------------------------:|
+| Gas sensor                     | GSWO3AIME20 (built at AIME)      |
+| Operational Amplifier          | LTC1050                          |
+| NPN transistor                 | P2N2222A                         |
+| LoRa module                    | RN2483                           |
+| External Board for LoRa module | Drazzy.com RN2483 Breakout Board |
 
 ---
 
